@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .section {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  #product-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product-card {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    background-color: rgb(88, 46, 74);
+    padding: 20px;
+  }
+  .product {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    background-color: rgb(100, 50, 83);
+    padding: 20px;
+    text-align: center;
+  }
+  .product-info {
+    margin-bottom: 20px;
+  }
+  
+  .product-image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .product-image-tea {
+    background-image: url('https://images.pexels.com/photos/1638280/pexels-photo-1638280.jpeg?auto=compress&cs=tinysrgb&w=600');
+  }
+  
+  .product-image-soap {
+    background-image: url('https://cdn.shopify.com/s/files/1/2395/7673/files/Herbal-Soap-Bars-at-Home-2_480x480.jpg?v=1681475518');
+  }
+  
+  .product-image-shampoo {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-gY-XPrqKCWogwQyct1LdD__zZm5WYzwYeQ&usqp=CAU');
+  }
+  .product-image-hairoil {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs7QaaEz7xN17UaV4Fiddta8XFxSe7EQixnQ&usqp=CAU');
+  }
